@@ -12,7 +12,7 @@ public class Ejercicio1 {
 		numero = sc.nextDouble();
 		redondeado = (int) (numero + 0.5); 
 		System.out.println(numero + " Redondeado es: " + redondeado);
-	
+		sc.close();
 	}
 
 }
